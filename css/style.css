@@ -15,7 +15,7 @@ color:white;
 }
 
 .logo{
-  height: 38px;
+  height: 48px;
   width: auto;
   display: block;
 }
@@ -24,8 +24,14 @@ header{
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:24px 5%;
+padding:24px 2%;
 gap:20px;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+z-index: 9999;
+background:#050816
 }
 
 .secure-badge{
@@ -60,6 +66,7 @@ justify-content:space-between;
 align-items:center;
 padding:0px 8% 60px;
 gap:60px;
+margin-top: 120px
 }
 
 .hero-text{
@@ -97,6 +104,35 @@ background:#0f1324;
 padding:25px;
 border-radius:20px;
 border:1px solid rgba(255,255,255,.05);
+}
+
+.platforms{
+display:flex;
+align-items:center;
+gap:14px;
+margin-top:25px;
+color:#7f7f7f;
+}
+
+.platforms .coming{
+font-size:10px;
+}
+
+.platforms i{
+font-size:19px;
+color:#bdbdbd;
+transition:.3s;
+cursor:pointer;
+}
+
+.platforms i:hover{
+color:white;
+}
+
+.divider{
+width:1px;
+height:24px;
+background:rgba(255,255,255,.15);
 }
 
 .tabs{
